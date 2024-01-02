@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "# Python data Types",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 1
+    },
+    {
+      "cell_type": "code",
+      "source": "# string Data type",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 2
+    },
+    {
+      "cell_type": "code",
+      "source": "a_str ='Hello World'",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 3
+    },
+    {
+      "cell_type": "code",
+      "source": "print(a_str)",
+      "metadata": {
+        "trusted": true,
+        "collapsed": true,
+        "jupyter": {
+          "outputs_hidden": true
+        }
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Hello World\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "cell_type": "code",
+      "source": "print(a_str[0])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "H\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "cell_type": "code",
+      "source": "#print(o_str[0:5])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 17
+    },
+    {
+      "cell_type": "code",
+      "source": "#print(o_str[0:5]) ?",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 64
+    },
+    {
+      "cell_type": "code",
+      "source": "print('o')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "o\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 25
+    },
+    {
+      "cell_type": "code",
+      "source": "print (\"o\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "o\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 28
+    },
+    {
+      "cell_type": "code",
+      "source": "#Set data types",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 30
+    },
+    {
+      "cell_type": "code",
+      "source": "#sets are unordered collections of unique objects,there are two types of sets:",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 31
+    },
+    {
+      "cell_type": "code",
+      "source": "#1. they are mutable and new elements can be added once sets are defined",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 32
+    },
+    {
+      "cell_type": "code",
+      "source": "basket={'apple', 'orange', 'apple', 'pear', 'orange', 'banana',}",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 36
+    },
+    {
+      "cell_type": "code",
+      "source": "print(basket)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "{'pear', 'orange', 'banana', 'apple'}\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 38
+    },
+    {
+      "cell_type": "code",
+      "source": "a=set('abracadabra')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 39
+    },
+    {
+      "cell_type": "code",
+      "source": "print(a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "{'r', 'd', 'a', 'c', 'b'}\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 40
+    },
+    {
+      "cell_type": "code",
+      "source": "a.add('z')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 41
+    },
+    {
+      "cell_type": "code",
+      "source": "print(a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "{'z', 'r', 'd', 'a', 'c', 'b'}\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 42
+    },
+    {
+      "cell_type": "code",
+      "source": "#2.Frozen sets - they are immutable and new elements cannot be added after its defined.",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 44
+    },
+    {
+      "cell_type": "code",
+      "source": "b=frozenset('asdfagsa')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 45
+    },
+    {
+      "cell_type": "code",
+      "source": "print(b)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "frozenset({'s', 'd', 'g', 'f', 'a'})\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 46
+    },
+    {
+      "cell_type": "code",
+      "source": "cities=frozenset([\"Frankfurt\", \"Basel\", \"Freiburg\"])",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 47
+    },
+    {
+      "cell_type": "code",
+      "source": "print(cities)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "frozenset({'Frankfurt', 'Basel', 'Freiburg'})\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 48
+    },
+    {
+      "cell_type": "code",
+      "source": "#Section 2.3: Number DATA TYPE",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 52
+    },
+    {
+      "cell_type": "code",
+      "source": "#Number have four types in python. Int,float,complex,and long.",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 51
+    },
+    {
+      "cell_type": "code",
+      "source": "int_num=10",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 53
+    },
+    {
+      "cell_type": "code",
+      "source": "float_num=10.2",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 54
+    },
+    {
+      "cell_type": "code",
+      "source": "complex_num=3.14j",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 61
+    },
+    {
+      "cell_type": "code",
+      "source": "#long_num = 1234567L ?",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 63
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
