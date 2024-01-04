@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "print(' hello world')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": " hello world\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 2
+    },
+    {
+      "cell_type": "code",
+      "source": "a=1",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 3
+    },
+    {
+      "cell_type": "code",
+      "source": "print(a)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "1\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 4
+    },
+    {
+      "cell_type": "code",
+      "source": "print (\" i love pizza\")",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": " i love pizza\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 5
+    },
+    {
+      "cell_type": "code",
+      "source": "print ('chicken pizza')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "chicken pizza\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 7
+    },
+    {
+      "cell_type": "code",
+      "source": "b=1.2",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 8
+    },
+    {
+      "cell_type": "code",
+      "source": "print (b)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "1.2\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 10
+    },
+    {
+      "cell_type": "code",
+      "source": "print ('b')",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "b\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 11
+    },
+    {
+      "cell_type": "code",
+      "source": "# Variables.",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 12
+    },
+    {
+      "cell_type": "code",
+      "source": "name = ' Brovsky'",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 17
+    },
+    {
+      "cell_type": "code",
+      "source": "print (\"hello\" +  name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "hello Brovsky\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 18
+    },
+    {
+      "cell_type": "code",
+      "source": "print (name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": " Brovsky\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 20
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type (name) )",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'str'>\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 22
+    },
+    {
+      "cell_type": "code",
+      "source": "# a string is series of characters",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 24
+    },
+    {
+      "cell_type": "code",
+      "source": "#typee is used for string",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 25
+    },
+    {
+      "cell_type": "code",
+      "source": "first_name = \"Jhonny\"",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 28
+    },
+    {
+      "cell_type": "code",
+      "source": "print(first_name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Jhonny\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 27
+    },
+    {
+      "cell_type": "code",
+      "source": "last_name = 'Depp'",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 30
+    },
+    {
+      "cell_type": "code",
+      "source": "print (last_name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Depp\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 31
+    },
+    {
+      "cell_type": "code",
+      "source": "full_name= \"Jhonny Depp\"",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 39
+    },
+    {
+      "cell_type": "code",
+      "source": "print (full_name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Jhonny Depp\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 40
+    },
+    {
+      "cell_type": "code",
+      "source": "full_name = first_name + \" \" + last_name",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 46
+    },
+    {
+      "cell_type": "code",
+      "source": "print (\"Hello \" +full_name)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Hello Jhonny Depp\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 47
+    },
+    {
+      "cell_type": "code",
+      "source": "#int - interger",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 48
+    },
+    {
+      "cell_type": "code",
+      "source": "age=21",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 54
+    },
+    {
+      "cell_type": "code",
+      "source": "age =21",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 55
+    },
+    {
+      "cell_type": "code",
+      "source": "age = age + 1",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 56
+    },
+    {
+      "cell_type": "code",
+      "source": "print (age)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "22\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 57
+    },
+    {
+      "cell_type": "code",
+      "source": "age += 1",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 58
+    },
+    {
+      "cell_type": "code",
+      "source": "print (age)",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "23\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 59
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type (age))",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'int'>\n",
+          "output_type": "stream"
+        }
+      ],
+      "execution_count": 60
+    },
+    {
+      "cell_type": "code",
+      "source": "#for this typè - class interger.",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": 61
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
